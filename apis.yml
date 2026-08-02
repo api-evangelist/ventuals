@@ -1,8 +1,27 @@
 aid: ventuals
 name: Ventuals
-description: 'Ventuals is a company surfaced as a portfolio company of paradigm and added to the API Evangelist
-  network as a stub for enrichment. Sector: crypto-defi. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Ventuals was a Paradigm-incubated trading venue for perpetual futures on
+  frontier technology — pre-IPO private companies (SpaceX, OpenAI, Anthropic),
+  thematic stock indices, and commodities — built on Hyperliquid's HIP-3
+  builder-deployed perps standard, margined and settled in USDH with up to 20x
+  leverage. Ventuals published no first-party API; its vntl-prefixed markets
+  were accessed programmatically through the Hyperliquid API (dex "vntl"). The
+  platform announced its sunset on June 15, 2026, settling all markets that
+  week and winding down vHYPE, with a sunset page maintained through at least
+  September 15, 2026.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://app.ventuals.com/opengraph-image-12jlf3?a30856cbf6a14558
 url: https://raw.githubusercontent.com/api-evangelist/ventuals/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +30,21 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Crypto Defi
+- Perpetual Futures
+- Pre-IPO
+- Derivatives
+- Trading
+- Hyperliquid
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,35 @@ maintainers:
 common:
 - type: Website
   url: https://ventuals.com
+- type: Documentation
+  url: https://docs.ventuals.com
+- type: APIReference
+  url: https://docs.ventuals.com/developers/api
+- type: GettingStarted
+  url: https://docs.ventuals.com/getting-started/accessing-ventuals
+- type: Support
+  url: https://discord.gg/ventuals
+- type: Twitter
+  url: https://x.com/ventuals
+- type: GitHubOrganization
+  url: https://github.com/ventuals
+- type: Pricing
+  url: https://docs.ventuals.com/trading/fees
+- type: TermsOfService
+  url: https://app.ventuals.com/terms
+- type: PrivacyPolicy
+  url: https://app.ventuals.com/privacy
+- type: Login
+  url: https://app.ventuals.com
+- type: LLMsTxt
+  url: llms/ventuals-llms.txt
+- type: Lifecycle
+  url: lifecycle/ventuals-lifecycle.yml
+- type: Deprecation
+  url: https://docs.ventuals.com/sunset-guide
+- type: VulnerabilityDisclosure
+  url: security/ventuals-vulnerability-disclosure.yml
+- type: Security
+  url: https://docs.ventuals.com/vhype/bug-bounty
+- type: DomainSecurity
+  url: security/ventuals-domain-security.yml

@@ -1,0 +1,47 @@
+# Ventuals
+
+## Product Docs
+
+- [Welcome to Ventuals](https://docs.ventuals.com/welcome-to-ventuals.md)
+- [Sunset Guide](https://docs.ventuals.com/sunset-guide.md)
+- [Why Ventuals?](https://docs.ventuals.com/overview/why-ventuals.md)
+- [Markets](https://docs.ventuals.com/overview/markets.md)
+- [Accessing Ventuals](https://docs.ventuals.com/getting-started/accessing-ventuals.md)
+- [Funding Your Account](https://docs.ventuals.com/getting-started/funding-your-account.md)
+- [Start Trading](https://docs.ventuals.com/getting-started/start-trading.md)
+- [Referrals](https://docs.ventuals.com/referrals/referrals.md)
+- [Order Types](https://docs.ventuals.com/trading/order-types.md)
+- [Margining](https://docs.ventuals.com/trading/margining.md)
+- [Liquidations](https://docs.ventuals.com/trading/liquidations.md): What happens if a trade goes bad?
+- [Fees](https://docs.ventuals.com/trading/fees.md)
+- [Points](https://docs.ventuals.com/trading/points.md)
+- [Private Companies](https://docs.ventuals.com/perp-specifications/private-companies.md)
+- [Indices](https://docs.ventuals.com/perp-specifications/indices.md)
+- [Commodities](https://docs.ventuals.com/perp-specifications/commodities.md)
+- [Maker Points](https://docs.ventuals.com/liquidity/maker-points.md)
+- [vHYPE](https://docs.ventuals.com/vhype/vhype.md)
+- [Benefits](https://docs.ventuals.com/vhype/benefits.md)
+- [Points](https://docs.ventuals.com/vhype/points.md)
+- [Contracts](https://docs.ventuals.com/vhype/contracts.md)
+- [Audits](https://docs.ventuals.com/vhype/audits.md)
+- [Bug Bounty](https://docs.ventuals.com/vhype/bug-bounty.md)
+- [Links](https://docs.ventuals.com/community/links.md)
+- [Brand Kit](https://docs.ventuals.com/community/brand-kit.md)
+- [API](https://docs.ventuals.com/developers/api.md)
+- [FAQs](https://docs.ventuals.com/resources/faqs.md)
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information, you can query the documentation dynamically by asking a question.
+Perform an HTTP GET request on a page URL with the `ask` query parameter:
+```
+GET https://docs.ventuals.com/welcome-to-ventuals.md?ask=<question>
+```
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

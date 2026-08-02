@@ -1,0 +1,45 @@
+generated: '2026-07-21'
+method: searched
+source: >-
+  https://docs.ventuals.com/sunset-guide,
+  https://docs.ventuals.com/welcome-to-ventuals,
+  https://app.ventuals.com/sunset
+status: sunset
+sunset:
+  announced: '2026-06-15'
+  guide: https://docs.ventuals.com/sunset-guide
+  page: https://app.ventuals.com/sunset
+  page_maintained_until: '2026-09-15'
+  notes: >-
+    As of June 15, 2026 Ventuals is sunsetting. Pre-IPO markets (OPENAI,
+    ANTHROPIC) were frozen at 24-hour mark-price TWAPs and halted June 15,
+    2026 (OPENAI settled at $1,341.80, ANTHROPIC at $1,618.90). Commodity
+    markets (WHEAT, SOY) settled June 18, 2026 after the CME session; index
+    markets (MAG7, SEMIS, ROBOT, INFOTECH, NUCLEAR, DEFENSE, ENERGY, BIOTECH)
+    settled June 18, 2026 after regular trading hours. All open-position PNL
+    was auto-settled at frozen mark prices; no trader action required.
+  wind_down:
+    - vHYPE deposits disabled; withdrawals batch-processed from June 19, 2026,
+      claimable after the 7.5-day Hyperliquid unstaking + cooldown period,
+      returned 1:1 plus accrued native staking yield.
+    - Points program discontinued June 15, 2026; points have no monetary value
+      and there will be no Ventuals token.
+    - Referrals program discontinued; final stablecoin disbursement completed.
+    - USDH collateral redeemable for USDC via the HyperCore USDH/USDC order
+      book or the 1:1 zero-fee HyperEVM bridge via Across Protocol.
+versioning:
+  scheme: null
+  notes: >-
+    Ventuals published no first-party versioned API; market access for its
+    vntl-prefixed markets was through the Hyperliquid API (dex "vntl"), whose
+    lifecycle is governed by Hyperliquid.
+deprecation:
+  policy_url: https://docs.ventuals.com/sunset-guide
+  sunset_header: false
+  notes: >-
+    Full-platform sunset documented in the Sunset Guide rather than a
+    per-endpoint deprecation policy; no RFC 8594 Sunset/Deprecation headers
+    (no first-party API surface).
+sla: null
+status_page: null
+deprecated_operations: []
