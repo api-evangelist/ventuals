@@ -10,6 +10,17 @@ description: >-
   platform announced its sunset on June 15, 2026, settling all markets that
   week and winding down vHYPE, with a sunset page maintained through at least
   September 15, 2026.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
